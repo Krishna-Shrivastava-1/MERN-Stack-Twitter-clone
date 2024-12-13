@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face{
+  font-family: 'chirp';
+  src: url('/public/Chirp/Chirp Medium.otf');
+ 
+}
+html,body{
+  background-color: black;
+  font-family: 'chirp';
+}
+
+@keyframes rotateGradient {
+  0% {
+    transform: rotate(0deg); /* Initial position */
+  }
+  100% {
+    transform: rotate(360deg); /* Full rotation */
+  }
+}
